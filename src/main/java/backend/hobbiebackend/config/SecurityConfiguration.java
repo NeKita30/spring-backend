@@ -40,7 +40,8 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
         webSecurity.ignoring().antMatchers(
                 "/v3/api-docs/**",
                 "/swagger-ui/**",
-                "/swagger-ui/index.html");
+                "/swagger-ui/index.html",
+                "/actuator/health/**");
     }
 
     @Override
