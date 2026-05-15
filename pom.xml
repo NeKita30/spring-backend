@@ -203,7 +203,7 @@
                 </executions>
             </plugin>
         </plugins>
-
+<!-- изменения -->
         <testResources>
             <testResource>
                 <directory>src/main/webapp</directory>
